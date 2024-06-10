@@ -1,0 +1,48 @@
+.parking-status {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.parking-status h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.parking-status h3 {
+    margin: 20px 0;
+}
+
+.parking-status .parking-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    width: 100%;
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.parking-status .cell {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    font-size: 0.8em;
+    width: 85%;
+}
+
+.parking-status .cell p {
+    margin: 5px 0;
+}
+
+.parking-status .cell.occupied {
+    background: #f8d7da;
+}
+
+.parking-status .cell-text {
+    margin: 5px 0;
+    font-size: 0.9em;
+}

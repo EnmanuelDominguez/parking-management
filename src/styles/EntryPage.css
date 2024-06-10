@@ -1,0 +1,46 @@
+.entry-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.entry-page h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.entry-page .search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.entry-page .vehicle-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.entry-page .vehicle-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    min-width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.entry-page .vehicle-item p {
+    margin: 5px 0;
+}
+
+.entry-page .vehicle-item button {
+    padding: 5px 10px;
+}
