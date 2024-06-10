@@ -12,7 +12,7 @@ export const ParkingProvider = ({ children }) => {
         if (username === 'admin' && password === 'admin') {
             setIsAuthenticated(true);
         } else {
-            alert('Usuario o contraseña incorrectos.');
+            alert('Usuario o contraseña incorrecto.');
         }
     };
 

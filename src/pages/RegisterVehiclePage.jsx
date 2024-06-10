@@ -18,12 +18,12 @@ const RegisterVehiclePage = () => {
         const plateRegexMoto = /^[A-Z]{3}[0-9]{2}[A-Z]$/;
 
         if (type === 'carro' && !plateRegexCar.test(plate)) {
-            alert('La placa del carro debe tener 3 letras y 3 números.');
+            alert('La placa del carro debe tener formato ABC123.');
             return;
         }
 
         if (type === 'moto' && !plateRegexMoto.test(plate)) {
-            alert('La placa de la moto debe tener 3 letras, 2 números y una letra final.');
+            alert('La placa de la moto debe tener formato ABC12D.');
             return;
         }
 
